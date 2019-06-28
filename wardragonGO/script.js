@@ -21,5 +21,5 @@ function updateGoLabel(data){
 // A function to change the color of the bingo tiles
 function colorTile(tile){
     tile.style.color = "#F0B44A";
-    tile.style.background = "#D83532";
+    tile.style.background = "#973032";
 }

@@ -5,7 +5,7 @@
         <title>GO: Self-Care Bingo</title>
     </head>
     <body>
-        <div class="container">
+        <div class="container mb-5">
             <div class="row mt-2">
 				<?php include "logo.php" ?>
 			</div>

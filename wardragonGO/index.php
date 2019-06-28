@@ -9,7 +9,7 @@
 			<div class="row mt-2">
 				<?php include "logo.php" ?>
 			</div>
-			<div class="row">
+			<div class="row mb-5">
 				<div class="col-12">
 					<div class="grid" data-packery='{ "itemSelector": ".grid-item", "gutter": 15 }'>	
 						<div class="grid-item grid-item--width4">

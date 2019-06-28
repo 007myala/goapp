@@ -23,6 +23,10 @@ select {
     -moz-appearance: none;
 }
 
+.josefin {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -39,7 +43,6 @@ button:focus {
 }
 
 .gamefontSub {
-    font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 1rem;
@@ -144,6 +147,11 @@ div#bingoCard a#bingo {
     }
     .gamefont {
         font-size: 2.5rem;
+        color: #000000 !important;
+    }
+
+    p.gamefont a, p.gamefont a:visited {
+        color: #000000 !important;
     }
     .gamefontSub {
         font-size: 0.6rem;
@@ -176,8 +184,8 @@ i {
     position: fixed;
     right: 20px;
     bottom: 15px;
-    font-size: 0.7rem;
-    color: #E2E1DE;
+    font-size: 0.5rem;
+    color: #7C42C9;
     width: 100%;
 }
 
@@ -224,9 +232,14 @@ div#bingoCard {
     100% {opacity: 0.5;}
 }
 
-a.closeBtn {
+a.closeBtn, a.gformBtn {
     margin-right: 0px;
     font-family: 'Bungee Shade', cursive;
+}
+
+a.gformBtn {
+    color: #973032 !important;
+    font-size: 2rem;
 }
 
 button#done {
@@ -249,4 +262,13 @@ img.gamelogo {
 .highb {
     background-color: #42BDC9;
     padding: 2px;
+}
+
+ul.goLists {
+    list-style: none;
+    padding: 0;
+}
+
+#gList h5 {
+    color: #42C992;
 }
